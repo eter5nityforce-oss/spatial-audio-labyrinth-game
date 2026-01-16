@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공간 음향 미궁 탐험 (Spatial Audio Labyrinth)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="overlay">
+        <h1>공간 음향 미궁 탐험</h1>
+        <p>Spatial Audio Labyrinth Exploration</p>
+        <div class="instructions">
+            <p>Headphones are REQUIRED.</p>
+            <p>Use <b>W, A, S, D</b> or Arrow Keys to move.</p>
+            <p>Press <b>SPACE</b> to emit a Sonar Ping.</p>
+            <p>Objective: Find the humming artifact. Avoid the growling hazards.</p>
+        </div>
+        <button id="start-btn">Enter the Labyrinth</button>
+    </div>
+    <div id="game-ui" style="display: none;">
+        <div id="status">Status: Searching...</div>
+        <div id="debug-info"></div>
+    </div>
+
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>
